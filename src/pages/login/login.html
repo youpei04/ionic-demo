@@ -1,0 +1,15 @@
+<div class="login">
+    <ion-list padding>
+        <ion-item>
+          <ion-label>账号</ion-label>
+          <ion-input type="text" [(ngModel)]="account"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label>密码</ion-label>
+          <ion-input type="password" [(ngModel)]="password" ></ion-input>
+        </ion-item>
+      </ion-list>
+</div>
+<div padding>
+  <button ion-button color="danger" block (click)="login()">登录</button>
+</div>

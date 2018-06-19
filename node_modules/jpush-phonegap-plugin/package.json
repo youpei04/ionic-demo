@@ -1,0 +1,62 @@
+{
+  "_from": "jpush-phonegap-plugin",
+  "_id": "jpush-phonegap-plugin@3.4.2",
+  "_inBundle": false,
+  "_integrity": "sha1-NYYdWZAUsSWO2mK/Xx+G+7R0rzc=",
+  "_location": "/jpush-phonegap-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "jpush-phonegap-plugin",
+    "name": "jpush-phonegap-plugin",
+    "escapedName": "jpush-phonegap-plugin",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/jpush-phonegap-plugin/download/jpush-phonegap-plugin-3.4.2.tgz",
+  "_shasum": "35861d599014b1258eda62bf5f1f86fbb474af37",
+  "_spec": "jpush-phonegap-plugin",
+  "_where": "F:\\ionic\\blankDemo",
+  "author": {
+    "name": "JiGuang"
+  },
+  "bugs": {
+    "url": "https://github.com/jpush/jpush-phonegap-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "jpush-phonegap-plugin",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "JPush for cordova plugin",
+  "devDependencies": {
+    "cordova-plugin-device": "*",
+    "cordova-plugin-jcore": ">=1.2.0"
+  },
+  "homepage": "https://github.com/jpush/jpush-phonegap-plugin#readme",
+  "keywords": [
+    "JPush",
+    "push",
+    "Push",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "name": "jpush-phonegap-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpush/jpush-phonegap-plugin.git"
+  },
+  "version": "3.4.2"
+}
