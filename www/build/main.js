@@ -128,7 +128,7 @@ var LoginPage = (function () {
     };
     LoginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"F:\ionic\blankDemo\src\pages\login\login.html"*/`<div class="login">\n    <ion-list padding>\n        <ion-item>\n          <ion-label>账号</ion-label>\n          <ion-input type="text" [(ngModel)]="account"></ion-input>\n        </ion-item>\n        <ion-item>\n          <ion-label>密码</ion-label>\n          <ion-input type="password" [(ngModel)]="password" ></ion-input>\n        </ion-item>\n      </ion-list>\n</div>\n<div padding>\n  <button ion-button color="danger" block (click)="login()">登录</button>\n</div>\n`/*ion-inline-end:"F:\ionic\blankDemo\src\pages\login\login.html"*/,
+            selector: 'page-login',template:/*ion-inline-start:"F:\ionic\ionic-demo\src\pages\login\login.html"*/`<div class="login">\n    <ion-list padding>\n        <ion-item>\n          <ion-label>账号</ion-label>\n          <ion-input type="text" [(ngModel)]="account"></ion-input>\n        </ion-item>\n        <ion-item>\n          <ion-label>密码</ion-label>\n          <ion-input type="password" [(ngModel)]="password" ></ion-input>\n        </ion-item>\n      </ion-list>\n</div>\n<div padding>\n  <button ion-button color="danger" block (click)="login()">登录</button>\n</div>\n`/*ion-inline-end:"F:\ionic\ionic-demo\src\pages\login\login.html"*/,
             providers: [__WEBPACK_IMPORTED_MODULE_3_ionic2_jpush_dist__["a" /* JPushService */], __WEBPACK_IMPORTED_MODULE_4__assets_public_utils__["c" /* HttpUtils */], __WEBPACK_IMPORTED_MODULE_4__assets_public_utils__["b" /* DataUtils */], __WEBPACK_IMPORTED_MODULE_4__assets_public_utils__["a" /* CommonUrl */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
@@ -179,7 +179,7 @@ var HomePage = (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"F:\ionic\blankDemo\src\pages\home\home.html"*/`<ion-header>\n  <ion-title>demo</ion-title>\n</ion-header>\n\n<ion-content padding>\n  <button type="button" class="" (click)="toMap()">百度地图</button>\n  <button type="button" class="" (click)="toAliPay()">支付宝</button>\n</ion-content>\n`/*ion-inline-end:"F:\ionic\blankDemo\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"F:\ionic\ionic-demo\src\pages\home\home.html"*/`<ion-header>\n  <ion-title>demo</ion-title>\n</ion-header>\n\n<ion-content padding>\n  <button type="button" class="" (click)="toMap()">百度地图</button>\n  <button type="button" class="" (click)="toAliPay()">支付宝</button>\n</ion-content>\n`/*ion-inline-end:"F:\ionic\ionic-demo\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], HomePage);
@@ -259,7 +259,7 @@ var MapPage = (function () {
     ], MapPage.prototype, "mapElement", void 0);
     MapPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-map',template:/*ion-inline-start:"F:\ionic\blankDemo\src\pages\map\map.html"*/`<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>百度地图</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <div id="map" #map style="height: 800px"></div>\n\n    <button type="button" class="" (click)="list()">渲染</button>\n\n</ion-content>`/*ion-inline-end:"F:\ionic\blankDemo\src\pages\map\map.html"*/,
+            selector: 'page-map',template:/*ion-inline-start:"F:\ionic\ionic-demo\src\pages\map\map.html"*/`<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>百度地图</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <div id="map" #map style="width: 100%;height: 100%;display: block;"></div>\n\n\n\n</ion-content>`/*ion-inline-end:"F:\ionic\ionic-demo\src\pages\map\map.html"*/,
             providers: [__WEBPACK_IMPORTED_MODULE_2__assets_public_utils__["c" /* HttpUtils */], __WEBPACK_IMPORTED_MODULE_2__assets_public_utils__["b" /* DataUtils */], __WEBPACK_IMPORTED_MODULE_2__assets_public_utils__["a" /* CommonUrl */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
@@ -321,7 +321,7 @@ var PayPage = (function () {
     };
     PayPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-paye',template:/*ion-inline-start:"F:\ionic\blankDemo\src\pages\pay\pay.html"*/`<ion-header>\n    <ion-navbar>\n        <ion-title>demo</ion-title>\n      </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <input type="text" name=""/>金额\n  <button type="button" class="" (click)="pay()">支付</button>\n</ion-content>\n`/*ion-inline-end:"F:\ionic\blankDemo\src\pages\pay\pay.html"*/
+            selector: 'page-paye',template:/*ion-inline-start:"F:\ionic\ionic-demo\src\pages\pay\pay.html"*/`<ion-header>\n    <ion-navbar>\n        <ion-title>demo</ion-title>\n      </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <input type="text" name=""/>金额\n  <button type="button" class="" (click)="pay()">支付</button>\n</ion-content>\n`/*ion-inline-end:"F:\ionic\ionic-demo\src\pages\pay\pay.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], PayPage);
@@ -394,7 +394,9 @@ var AppModule = (function () {
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_5__angular_http__["c" /* HttpModule */],
-                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {}, {
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {
+                    backButtonText: "返回"
+                }, {
                     links: []
                 })
             ],
@@ -455,7 +457,7 @@ var MyApp = (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"F:\ionic\blankDemo\src\app\app.html"*/`<ion-nav [root]="rootPage"></ion-nav>\n`/*ion-inline-end:"F:\ionic\blankDemo\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"F:\ionic\ionic-demo\src\app\app.html"*/`<ion-nav [root]="rootPage"></ion-nav>\n`/*ion-inline-end:"F:\ionic\ionic-demo\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);

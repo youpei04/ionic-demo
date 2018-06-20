@@ -20,7 +20,9 @@ import { PayPage } from '../pages/pay/pay';
   imports: [
     BrowserModule,
     HttpModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp,{
+      backButtonText:"返回"
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
